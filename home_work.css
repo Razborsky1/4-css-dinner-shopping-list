@@ -2,7 +2,7 @@ body{
     background-color: #bd6363;
     font-size: 20px;
 }
-div  p{
+[id]{
     color:  white;
      font-family: sans-serif;
 }
