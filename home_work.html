@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="home_work.css"> 
-      </head>
-      <body>
-            <div>
-                    <p class="paragraph">Параграф вложенный в div</p>
-                    <ul>
-                      <li><p>Параграф вложенный в li 1</p></li>
-                      <li class="second-list"><p>Параграф вложенный в li 2</p></li>
-                      <li><p>Параграф вложенный в li 3</p></li>
-                    </ul>
-                  </div>
-                  <p class="paragraph-after-div">Параграф вне div</p>
-                  <a href="#">Ссылка</a>
-                  <p>Параграф вне div</p> 
-      </body>
-        </head>
+            <link rel="stylesheet" type="text/css" href="home_work.css"> 
+    </head>
+    <body>
+<a class="link" href="#">Ссылка</a>
+<form action="#">
+<div>
+  <label for="name">Text Input:</label>
+  <input type="text" name="name" id="name" placeholder="John Smith"  disabled/>
+</div>
+
+<fieldset>
+  <legend>Radio Button Choice</legend>
+
+  <label for="radio-choice-1">Choice 1</label>
+  <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+  <label for="radio-choice-2">Choice 2</label>
+  <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+</fieldset>
+
+<div>
+  <label for="select-choice">Select Dropdown Choice:</label>
+  <select name="select-choice" id="select-choice" disabled>
+    <option value="Choice 1">Choice 1</option>
+    <option value="Choice 2">Choice 2</option>
+    <option value="Choice 3">Choice 3</option>
+  </select>
+</div>
+
+<div>
+  <label for="textarea">Text field:
+  <input type="text" />
+  </label>
+
+</div>
+
+<div>
+  <label for="checkbox">Checkbox:</label>
+  <input type="checkbox" name="checkbox" id="checkbox" />
+</div>
+
+<div>
+  <input type="submit" value="Submit" />
+</div>
+</form>
+</body>
 </html>
