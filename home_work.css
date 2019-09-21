@@ -1,60 +1,59 @@
-*:focus{
-    outline:5px solid #D74668;
-  }
-  form :enabled{
-    background-color: #fff;
-  }
-  form :disabled{
-    background-color: #fb0;
-  }
-  form :checked{
-    width: 20px;
-    height: 20px;
-  }
-  .link:link{
-    display:block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background-color: #09f;
-    width: 150px;
-    height: 50px;
-    padding: 15px;
-    text-align:center;
-    color:#fff;
-    text-decoration: none;
-    margin-bottom: 20px;
-  }
-  .link:hover{
-    background-color: #555;
-  }
-  .link:active{
-    background-color: #0c9;
-  }
-  .link:visited{
-    background-color: #cc9;
-    color:#000;
-  }
-  body{
-    background-color: #76C267;
-    font-size: 16px;
-    font-family: sans-serif;
-    padding: 10px;
-  }
-  *{
-    outline:none;
-    transition: outline .3s ease, width .3s ease, height .3s ease;
-  }
-  form{
-    width: 300px;
-  }
-  form *{
-    margin-bottom: 15px;
-    
-  }
-  legend{
-    background: #fff;
-  }
-  [type="text"]{
-    padding: 10px;
-  }
+body {
+    font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+    font-size: 1.1em;
+    background-color: #3B3F45;
+    color: aliceblue;
+}
+header {
+    margin:0 auto;
+    background-color: #4A4F56;
+    color: #EB7E7F;
+    text-align: center;
+    padding: 5px;
+}
+footer{
+    margin: 0 auto;
+    background-color: #4A4F56;
+    color:#EB7E7F;
+    text-align: center;
+    width: 50%;
+    padding: 2px 0px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    margin: 0 auto;
+    background-color: #7b7694;
+    width: 50%;
+    padding: 15px 0px;
+}
+li:nth-child(odd){
+    background-color: #89849f;
+
+}
+li:hover{
+    background-color: #625E77;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+li:active{
+    background-color: red;
+}
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color: darkgray;
+}
+label>span::before {
+    content: "(";
+}
+label>span::after {
+    content: ")";
+}
+span{
+    font-size: 12px;
+    color:rgb(201, 199, 199);
+    margin: 8px;
+}
