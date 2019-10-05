@@ -12,16 +12,6 @@ li:nth-child(2n){
     color: #d7d7dd;
     background-color: #88839E;
 }
-li:nth-last-child(2n){
-    display: block;
-    box-sizing: border-box;
-    width: 500px;
-    height: 50px;
-    text-align: left;
-    color:#d7d7dd;
-    background-color: #7a7593;
-    text-decoration: none;
-}
 .link:hover{
     background-color: #625e77;
 }
