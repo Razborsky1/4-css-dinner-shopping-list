@@ -1,14 +1,14 @@
 body{
     font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif;
     background-color: #3B3F45;
-    font-size: 20px;
+    font-size: 30px;
+    
 }
-li:nth-child(2n){
+.link{
     display: block;
     box-sizing: border-box;
-    width: 500px;
-    height: 50px;
     text-align:left;
+    
     color: #d7d7dd;
     background-color: #88839E;
 }
@@ -28,7 +28,7 @@ li:nth-child(2n){
     background-color:#4A4F56; 
     margin: 0px;
     }
-.wihte-text {
+.white-text {
     color: #EB7E7F;
     background-color:#4A4F56 ;
     text-align: center;
