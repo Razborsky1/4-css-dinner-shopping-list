@@ -8,7 +8,7 @@ li:nth-child(2n){
     box-sizing: border-box;
     width: 500px;
     height: 50px;
-    text-align: left;
+    text-align:left;
     color: #d7d7dd;
     background-color: #88839E;
 }
