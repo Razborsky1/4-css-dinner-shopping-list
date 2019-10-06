@@ -2,7 +2,7 @@ body{
     font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif;
     background-color: #3B3F45;
     font-size: 30px;
-    
+    text-decoration:link;
 }
 .link{
     display: block;
@@ -10,9 +10,14 @@ body{
     text-align:left;
     color: #d7d7dd;
     background-color: #88839E;
+    width: auto;
+    height: auto;
 }
 li:nth-of-type(2n){
     background-color:#7A7593;
+}
+label input:checked + span {
+    text-decoration: line-through;
 }
 .link:hover{
     background-color: #625e77;
